@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1778AE9061735D5FDC959155 /* Pods_learn_bitrise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A65A58F54DEA792CE45E71 /* Pods_learn_bitrise.framework */; };
 		3CD3E9F31EDD64D20023D559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3E9F21EDD64D20023D559 /* AppDelegate.swift */; };
 		3CD3E9F51EDD64D20023D559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3E9F41EDD64D20023D559 /* ViewController.swift */; };
 		3CD3E9F81EDD64D20023D559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD3E9F61EDD64D20023D559 /* Main.storyboard */; };
 		3CD3E9FA1EDD64D20023D559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD3E9F91EDD64D20023D559 /* Assets.xcassets */; };
 		3CD3E9FD1EDD64D20023D559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD3E9FB1EDD64D20023D559 /* LaunchScreen.storyboard */; };
 		3CD3EA081EDD64D20023D559 /* learn_bitriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3EA071EDD64D20023D559 /* learn_bitriseTests.swift */; };
+		E02273A242997406ACA1825D /* Pods_learn_bitriseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353CB15A30115C6C8B30FABB /* Pods_learn_bitriseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A65A58F54DEA792CE45E71 /* Pods_learn_bitrise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learn_bitrise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1725557547127D80ED53ABAC /* Pods-learn-bitrise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn-bitrise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learn-bitrise/Pods-learn-bitrise.debug.xcconfig"; sourceTree = "<group>"; };
+		353CB15A30115C6C8B30FABB /* Pods_learn_bitriseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learn_bitriseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD3E9EF1EDD64D20023D559 /* learn-bitrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-bitrise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD3E9F21EDD64D20023D559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD3E9F41EDD64D20023D559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		3CD3EA031EDD64D20023D559 /* learn-bitriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-bitriseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD3EA071EDD64D20023D559 /* learn_bitriseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_bitriseTests.swift; sourceTree = "<group>"; };
 		3CD3EA091EDD64D20023D559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A576E56A1099E2A65B1C37 /* Pods-learn-bitriseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn-bitriseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-learn-bitriseTests/Pods-learn-bitriseTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE9BDF9394F3775378CCA76C /* Pods-learn-bitrise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn-bitrise.release.xcconfig"; path = "Pods/Target Support Files/Pods-learn-bitrise/Pods-learn-bitrise.release.xcconfig"; sourceTree = "<group>"; };
+		D6233DB05F50AAC7A6E74D21 /* Pods-learn-bitriseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learn-bitriseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learn-bitriseTests/Pods-learn-bitriseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1778AE9061735D5FDC959155 /* Pods_learn_bitrise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02273A242997406ACA1825D /* Pods_learn_bitriseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22055D29E5F20C6E8DA70954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10A65A58F54DEA792CE45E71 /* Pods_learn_bitrise.framework */,
+				353CB15A30115C6C8B30FABB /* Pods_learn_bitriseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3CD3E9E61EDD64D20023D559 = {
 			isa = PBXGroup;
 			children = (
 				3CD3E9F11EDD64D20023D559 /* learn-bitrise */,
 				3CD3EA061EDD64D20023D559 /* learn-bitriseTests */,
 				3CD3E9F01EDD64D20023D559 /* Products */,
+				526E01BDC37769850018651E /* Pods */,
+				22055D29E5F20C6E8DA70954 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = "learn-bitriseTests";
 			sourceTree = "<group>";
 		};
+		526E01BDC37769850018651E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1725557547127D80ED53ABAC /* Pods-learn-bitrise.debug.xcconfig */,
+				BE9BDF9394F3775378CCA76C /* Pods-learn-bitrise.release.xcconfig */,
+				D6233DB05F50AAC7A6E74D21 /* Pods-learn-bitriseTests.debug.xcconfig */,
+				64A576E56A1099E2A65B1C37 /* Pods-learn-bitriseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CD3EA0C1EDD64D20023D559 /* Build configuration list for PBXNativeTarget "learn-bitrise" */;
 			buildPhases = (
+				99AE030EEF8896523986C95A /* [CP] Check Pods Manifest.lock */,
 				3CD3E9EB1EDD64D20023D559 /* Sources */,
 				3CD3E9EC1EDD64D20023D559 /* Frameworks */,
 				3CD3E9ED1EDD64D20023D559 /* Resources */,
+				3C59EAFF1EDD94880009923A /* ShellScript */,
+				B97691DAD7E4D2B4FDB01D52 /* [CP] Embed Pods Frameworks */,
+				F1F42531306DBE6FD0580BC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CD3EA0F1EDD64D20023D559 /* Build configuration list for PBXNativeTarget "learn-bitriseTests" */;
 			buildPhases = (
+				03AB7BADE8EDEAC5467FC9E6 /* [CP] Check Pods Manifest.lock */,
 				3CD3E9FF1EDD64D20023D559 /* Sources */,
 				3CD3EA001EDD64D20023D559 /* Frameworks */,
 				3CD3EA011EDD64D20023D559 /* Resources */,
+				02088765F16C9366393F12FE /* [CP] Embed Pods Frameworks */,
+				770BD492C2E5B21BDBFD479D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +234,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02088765F16C9366393F12FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learn-bitriseTests/Pods-learn-bitriseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03AB7BADE8EDEAC5467FC9E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C59EAFF1EDD94880009923A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" afd5e8dd324c68c98d1c364b2c00d107887be932 45a6b6c067656876ed24580a9d10ee39e24785a28ac381a361b38f02dd2e1933";
+		};
+		770BD492C2E5B21BDBFD479D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learn-bitriseTests/Pods-learn-bitriseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99AE030EEF8896523986C95A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B97691DAD7E4D2B4FDB01D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learn-bitrise/Pods-learn-bitrise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F42531306DBE6FD0580BC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learn-bitrise/Pods-learn-bitrise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CD3E9EB1EDD64D20023D559 /* Sources */ = {
@@ -339,6 +484,7 @@
 		};
 		3CD3EA0D1EDD64D20023D559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1725557547127D80ED53ABAC /* Pods-learn-bitrise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -346,6 +492,7 @@
 				INFOPLIST_FILE = "learn-bitrise/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.addli.learn-bitrise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ec49a776-2a90-49fa-a963-6381dcc14fdb";
@@ -356,6 +503,7 @@
 		};
 		3CD3EA0E1EDD64D20023D559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9BDF9394F3775378CCA76C /* Pods-learn-bitrise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -373,6 +521,7 @@
 		};
 		3CD3EA101EDD64D20023D559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6233DB05F50AAC7A6E74D21 /* Pods-learn-bitriseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -388,6 +537,7 @@
 		};
 		3CD3EA111EDD64D20023D559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A576E56A1099E2A65B1C37 /* Pods-learn-bitriseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

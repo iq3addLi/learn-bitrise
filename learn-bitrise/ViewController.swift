@@ -8,6 +8,8 @@
 
 import UIKit
 
+import Crashlytics
+
 class ViewController: UITableViewController {
 
     override func viewDidLoad() {
@@ -20,6 +22,11 @@ class ViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        if indexPath.row == 2{
+            Crashlytics.sharedInstance().crash()
+        }
+    }
 }
 
